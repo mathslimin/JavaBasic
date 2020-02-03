@@ -1,0 +1,20 @@
+package NumberMath;
+
+/**
+ * @author Administrator
+ *
+ * Java Math类
+ * Java的Math包含了用于执行基本数学运算的属性和方法、如初等指数、对数、平方根和三角函数。
+ * Math的方法都被定义为static形式，通过Math类可以再主函数中直接调用
+ *
+ */
+public class TestMath {
+    public static void main(String[] args) {
+        System.out.println("90度的正弦值：" + Math.sin(Math.PI / 2));
+        System.out.println("0度的余弦值：" + Math.cos(0));
+        System.out.println("60度正切值：" + Math.tan(Math.PI / 3));
+        System.out.println("1的反正切值" + Math.atan(1));
+        System.out.println("π/2的角度值：" + Math.toDegrees(Math.PI / 2));
+        System.out.println(Math.PI);
+    }
+}
