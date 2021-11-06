@@ -1,6 +1,5 @@
 package StreamFileIO;
 
-import com.sun.scenario.effect.impl.state.AccessHelper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
